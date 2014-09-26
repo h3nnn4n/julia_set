@@ -1,0 +1,7 @@
+#!/bin/bash
+
+for i in $1*ppm
+do
+	convert $i `basename $i .ppm`.png
+	echo $i converted!
+done
