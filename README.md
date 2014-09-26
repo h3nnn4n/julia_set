@@ -1,4 +1,4 @@
-julia_set
+Julia set
 =========
 
 Julia set with an animator.
